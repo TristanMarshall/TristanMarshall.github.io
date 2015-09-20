@@ -1,0 +1,77 @@
+html, body {
+  min-height: 100%;
+}
+
+.nav {
+  color: white;
+  width: 95%;
+  margin-top: -2.1%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+}
+
+.fixedName {
+  font-family: 'lato';
+  font-weight: 200;
+  font-size: 2.2vw;
+  color: #78603B;
+  margin-top: 1.9%;
+  margin-bottom: 0.7%;
+  text-align: center;
+  letter-spacing: 2.3vw;
+}
+
+.fullStackTitle {
+  font-family: 'lato';
+  font-weight: 200;
+  font-size: 2.2vw;
+  color: #78603B;
+  margin-top: 1.5%;
+  margin-left: 25.3%;
+  margin-right: -2.2%;
+  margin-bottom: -0.2%;
+  letter-spacing: 2.5vw;
+}
+
+.navBox {
+  width: 25.7%;
+  height: 1000px;
+  margin-top: -6%;
+  margin-left: -1%;
+  background-color: black;
+  float: left;
+}
+
+.navBraces {
+  width: 13%;
+  height: auto;
+  position: fixed;
+  margin-left: 5.3%;
+  margin-top: 30%;
+}
+
+.mainPhoto {
+  width: 78.2%;
+  height: auto;
+  margin-right: -4%;
+  margin-left: -1%;
+  margin-top: -2.2%;
+  margin-bottom: -16.7%;
+  float: left;
+}
+
+.contactInfo {
+  width: 29%;
+  margin-bottom: -1%;
+  margin-top: 3.8%;
+  height: auto;
+}
+
+/*body {
+ font-size: 1rem;
+ background-color: #EFFBF2;
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}*/
