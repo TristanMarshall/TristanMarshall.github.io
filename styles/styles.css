@@ -1,41 +1,55 @@
 html, body {
+  width: 100%;
   min-height: 100%;
 }
 
-.nav {
-  color: white;
-  width: 95%;
-  margin-top: -2.1%;
-  background-color: rgba(0, 0, 0, 0.4);
+.arrow {
+  width: 1.4%;
+  height: auto;
+  margin-top: 18%;
+  margin-left: 6.9%;
   position: fixed;
+}
+
+.nav {
+  width: 100%;
+  margin-top: -0.6%;
+  margin-left: -1.2%;
+  background-color: black;
+  position: fixed;
+  display: none;
 }
 
 .fixedName {
   font-family: 'lato';
   font-weight: 200;
-  font-size: 2.2vw;
+  font-size: 1.5vw;
   color: #78603B;
-  margin-top: 1.9%;
+  margin-top: .9%;
   margin-bottom: 0.7%;
+  margin-left: 1.2%;
+  margin-right: -2.6%;
   text-align: center;
-  letter-spacing: 2.3vw;
+  letter-spacing: 2.8vw;
+  display: none;
 }
 
 .fullStackTitle {
   font-family: 'lato';
   font-weight: 200;
-  font-size: 2.2vw;
+  font-size: 1.5vw;
   color: #78603B;
-  margin-top: 1.5%;
-  margin-left: 25.3%;
-  margin-right: -2.2%;
+  margin-top: 1.3%;
+  margin-left: 16.5%;
+  /* margin-right: -2.2%; */
   margin-bottom: -0.2%;
-  letter-spacing: 2.5vw;
+  letter-spacing: 3.3vw;
+  display: none;
 }
 
-.navBox {
-  width: 25.7%;
-  height: 1000px;
+#navBox {
+  width: 15%;
+  height: 3000px;
   margin-top: -6%;
   margin-left: -1%;
   background-color: black;
@@ -43,29 +57,156 @@ html, body {
 }
 
 .navBraces {
-  width: 13%;
+  width: 11%;
   height: auto;
   position: fixed;
-  margin-left: 5.3%;
+  margin-left: 2.1%;
   margin-top: 30%;
 }
 
 .mainPhoto {
-  width: 78.2%;
+  width: 86.8%;
   height: auto;
-  margin-right: -4%;
-  margin-left: -1%;
+  /* margin-right: -4%; */
+  margin-left: -1.1%;
   margin-top: -2.2%;
   margin-bottom: -16.7%;
   float: left;
 }
 
-.contactInfo {
+.contactInfo3 {
   width: 29%;
-  margin-bottom: -1%;
-  margin-top: 3.8%;
+  margin-bottom: 1.2%;
+  margin-top: 1.6%;
   height: auto;
+  display: none;
 }
+
+#dev {
+  font-family: 'lato';
+  color: rgb(153, 130, 93);
+  margin-bottom: 50%;
+  padding-top: 5%;
+  font-size: 1.5vw;
+  text-align: center;
+  letter-spacing: 1.7vw;
+}
+
+#logo {
+  font-family: 'lato';
+  color: rgb(153, 130, 93);
+  margin-bottom: 50%;
+  padding-top: 5%;
+  font-size: 1.5vw;
+  text-align: center;
+  letter-spacing: 1.7vw;
+}
+
+#illustrate {
+  font-family: 'lato';
+  color: rgb(153, 130, 93);
+  margin-bottom: 50%;
+  padding-top: 5%;
+  font-size: 1.5vw;
+  text-align: center;
+  letter-spacing: 1.7vw;
+}
+
+.dev1 {
+  font-family: 'lato';
+  font-weight: 300;
+  font-size: 1.2vw;
+  text-decoration: none;
+  position: fixed;
+  color: rgb(153, 130, 93);
+  margin-top: 31.2%;
+  margin-left: 3.3%;
+  z-index: 10;
+  display: none;
+}
+.dev1:hover {
+  color: rgb(232, 211, 169);
+}
+.dev1.active {
+  color: rgb(232, 211, 169);
+}
+
+.logo1 {
+  font-family: 'lato';
+  font-weight: 300;
+  font-size: 1.2vw;
+  text-decoration: none;
+  position: fixed;
+  color: rgb(153, 130, 93);
+  margin-top: 33.8%;
+  margin-left: 3.6%;
+  z-index: 10;
+  display: none;
+}
+.logo1:hover {
+  color: rgb(232, 211, 169);
+}
+.logo1.active {
+  color: rgb(232, 211, 169);
+}
+
+.illustrate1 {
+  font-family: 'lato';
+  font-weight: 300;
+  font-size: 1.2vw;
+  text-decoration: none;
+  color: rgb(153, 130, 93);
+  position: fixed;
+  margin-top: 36.5%;
+  margin-left: 3.2%;
+  z-index: 10;
+  display: none;
+}
+.illustrate1:hover {
+  color: rgb(232, 211, 169);
+}
+.illustrate1.active {
+  color: rgb(232, 211, 169);
+}
+
+.socialLinks {
+  margin-top: -3.2%;
+  margin-left: 25%;
+  width: 18%;
+  height: auto;
+  padding-bottom: 3.8%;
+  position: relative;
+  display: none;
+}
+
+.github {
+  width: 17%;
+  height: auto;
+  margin-right: 10%;
+  margin-left: 0.8%;
+  float: left;
+}
+
+.linkedin {
+  width: 17%;
+  height: auto;
+  margin-right: 10%;
+  float: left;
+}
+
+.twitter {
+  width: 17%;
+  height: auto;
+  margin-right: 10%;
+  float: left;
+}
+
+.resume {
+  width: 17%;
+  height: auto;
+  float: left;
+}
+
 
 /*body {
  font-size: 1rem;
