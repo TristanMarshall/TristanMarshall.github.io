@@ -13,6 +13,18 @@ $(document).ready(function(){
   $('.illustrate1').fadeIn(2000);
   $('.socialLinks').fadeIn(2000);
 
+
+
+  $('.pics').slick({
+     slidesToShow: 1,
+     slidesToScroll: 1,
+     autoplay: true,
+     dots: true,
+     arrows: false,
+     fade: true,
+     autoplaySpeed: 1000,
+   });
+
 ////////////////////////////////////////////////////////////////////////////////
 //                             V E L O C I T Y
 ////////////////////////////////////////////////////////////////////////////////
