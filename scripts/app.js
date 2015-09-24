@@ -15,15 +15,14 @@ $(document).ready(function(){
 
 
 
-  // $('.pics').slick({
-  //    slidesToShow: 1,
-  //    slidesToScroll: 1,
-  //    autoplay: true,
-  //    dots: true,
-  //    arrows: false,
-  //    fade: true,
-  //    autoplaySpeed: 1000,
-  //  });
+  $('.pics').slick({
+    dots: true,
+    infinite: true,
+    speed: 700,
+    fade: true,
+    arrows: true,
+    cssEase: 'linear',
+   });
 
 ////////////////////////////////////////////////////////////////////////////////
 //                             V E L O C I T Y
@@ -37,15 +36,6 @@ $('.linklink').on('click', function(e) {
     duration: 1000
   });
 });
-
-
-
-
-
-
-
-
-
 
 ////////////////////////////////////////////////////////////////////////////////
 //                   E N D  O F  D O C U M E N T . R E A D Y
