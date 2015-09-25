@@ -12,6 +12,9 @@ $(document).ready(function(){
   $('.logo1').fadeIn(2000);
   $('.illustrate1').fadeIn(2000);
   $('.socialLinks').fadeIn(2000);
+  $('.loadDiv').fadeOut(3000);
+
+
 
   $('.pics').slick({
     dots: true,
@@ -21,6 +24,13 @@ $(document).ready(function(){
     arrows: true,
     cssEase: 'linear',
    });
+
+//    $(function () {
+//     var $element = $('.load');
+//     setInterval(function () {
+//         $element.fadeIn(700).delay(100).fadeOut(900).fadeIn(500);
+//     }, 1000);
+// });
 
 ////////////////////////////////////////////////////////////////////////////////
 //                             V E L O C I T Y
