@@ -4,15 +4,19 @@ $(document).ready(function(){
 //                     J Q U E R Y  A N I M A T I O N
 ////////////////////////////////////////////////////////////////////////////////
 
-  $('.fixedName').fadeIn(3000);
-  $('.nav').fadeIn(3000);
-  $('.fullStackTitle').fadeIn(3000);
-  $('.contactInfo3').fadeIn(2000);
-  $('.dev1').fadeIn(2000);
-  $('.logo1').fadeIn(2000);
-  $('.illustrate1').fadeIn(2000);
-  $('.socialLinks').fadeIn(2000);
-  $('.loadDiv').fadeOut(3000);
+  // $(window).load(function(){
+    $('.fixedName').fadeIn(3000);
+    $('.nav').fadeIn(3000);
+    $('.fullStackTitle').fadeIn(3000);
+    $('.contactInfo3').fadeIn(2000);
+    $('.dev1').fadeIn(2000);
+    $('.logo1').fadeIn(2000);
+    $('.illustrate1').fadeIn(2000);
+    $('.socialLinks').fadeIn(2000);
+    $('.loadDiv').delay(1000).fadeOut(3000);
+  // });
+
+
 
 
 
