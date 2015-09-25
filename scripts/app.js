@@ -13,8 +13,6 @@ $(document).ready(function(){
   $('.illustrate1').fadeIn(2000);
   $('.socialLinks').fadeIn(2000);
 
-
-
   $('.pics').slick({
     dots: true,
     infinite: true,
