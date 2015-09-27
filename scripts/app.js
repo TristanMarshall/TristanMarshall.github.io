@@ -9,17 +9,14 @@ $(document).ready(function(){
     $('.nav').fadeIn(3000);
     $('.fullStackTitle').fadeIn(3000);
     $('.contactInfo3').fadeIn(2000);
-    $('.dev1').fadeIn(2000);
-    $('.logo1').fadeIn(2000);
-    $('.illustrate1').fadeIn(2000);
+    $('.dev1').delay(2000).fadeIn(2000);
+    $('.logo1').delay(2000).fadeIn(2000);
+    $('.about1').delay(2000).fadeIn(2000);
+    $('.contact1').delay(2000).fadeIn(2000);
+    $('.illustrate1').delay(2000).fadeIn(2000);
     $('.socialLinks').fadeIn(2000);
     $('.loadDiv').delay(1000).fadeOut(3000);
   // });
-
-
-
-
-
   $('.pics').slick({
     dots: true,
     infinite: true,

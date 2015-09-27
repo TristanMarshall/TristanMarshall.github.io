@@ -5,7 +5,7 @@ html, body {
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-  background-color: #FDF6ED;
+  background-color: #FFFFFF;
 }
 
 .loadDiv {
@@ -60,9 +60,9 @@ hr {
 .fixedName {
   font-family: 'lato';
   font-weight: 200;
-  font-size: 2.1vw;
+  font-size: 1.5vw;
   color: #78603B;
-  margin-top: 2.4%;
+  margin-top: 2.6%;
   margin-bottom: 0.8%;
   margin-left: 2.3%;
   text-align: center;
@@ -232,7 +232,7 @@ hr {
 #navBox {
   width: 18%;
   height: 0;
-  padding-bottom: 600%;
+  padding-bottom: 615%;
   margin-top: -6%;
   margin-left: -1%;
   background-color: black;
@@ -293,6 +293,7 @@ hr {
   font-weight: 200;
   color: rgb(153, 130, 93);
   margin-bottom: 2%;
+  margin-top: 20%;
   padding-top: 6%;
   font-size: 2vw;
   text-align: center;
@@ -308,6 +309,7 @@ hr {
   text-align: center;
   letter-spacing: 1.7vw;
   margin-bottom: 2%;
+  margin-top: 20%;
 }
 
 #about {
@@ -315,6 +317,7 @@ hr {
   font-weight: 200;
   color: rgb(153, 130, 93);
   margin-bottom: 2%;
+  margin-top: 20%;
   padding-top: 6%;
   font-size: 2vw;
   text-align: center;
@@ -322,22 +325,26 @@ hr {
 }
 .profile {
   height: auto;
-  width: 30%;
-  margin-left: 3.2%;
-  margin-top: 4%;
-  border: solid 5px rgb(153, 130, 93);
-  float: left;
+  width: 83%;
 }
 
 .profileInfo {
-  width: 44%;
+  width: 27%;
   height: auto;
-  margin-top: 4%;
-  margin-left: 1%;
-  margin-bottom: 20%;
-  border: solid;
-  float: left;
+  color: rgb(106, 85, 51);
+  margin-top: -50%;
   margin-bottom: 10%;
+  font-family: 'quicksand';
+  font-size: 1.4vw;
+  margin-left: 18%;
+}
+
+.profileInfo2 {
+  color: rgb(235, 224, 211);
+  font-family: 'quicksand';
+  font-size: 3.8vw;
+  margin-bottom: -2%;
+  margin-top: 0%;
 }
 
 #contact {
@@ -345,6 +352,7 @@ hr {
   font-weight: 200;
   color: rgb(153, 130, 93);
   margin-bottom: 2%;
+  margin-top: 20%;
   padding-top: 6%;
   font-size: 2vw;
   text-align: center;
@@ -428,7 +436,7 @@ hr {
   margin-top: 35.6%;
   margin-left: 7.5%;
   z-index: 10;
-  /* display: none; */
+   display: none;
 }
 .about1:hover {
   color: rgb(232, 211, 169);
@@ -447,7 +455,7 @@ hr {
   margin-top: 37.9%;
   margin-left: 6.7%;
   z-index: 10;
-  /* display: none; */
+   display: none;
 }
 .contact1:hover {
   color: rgb(232, 211, 169);
