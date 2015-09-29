@@ -580,6 +580,9 @@ hr {
   padding-left: 3%;
   padding-right: 2%;
 }
+.photos {
+  width: 100%;
+}
 .img {
   max-width: 100%;
   height: auto;
@@ -671,10 +674,10 @@ hr {
   font-weight: 300;
   font-size: 3.5vw;
   color: #78603B;
-  margin-top: -69.6%;
+  margin-top: -62.6%;
   margin-left: 19.7%;
   /* margin-right: -2.2%; */
-  margin-bottom: 56%;
+  margin-bottom: 29%;
   letter-spacing: 2.6vw;
   display: none;
 }
@@ -692,9 +695,12 @@ hr {
 .tmlogo2 {
   width: 65%;
   height: auto;
-  margin-top: 77%;
+  margin-top: 54%;
   margin-left: 16%;
   opacity: 0.4;
+  position: relative;
+  z-index: 2000;
+
 }
 
 .links1 {
@@ -785,7 +791,7 @@ hr {
   font-weight: 200;
   color: rgb(153, 130, 93);
   margin-bottom: 2%;
-  padding-top: 22%;
+  padding-top: 25%;
   font-size: 6vw;
   text-align: center;
   letter-spacing: 1.7vw;
@@ -813,7 +819,7 @@ hr {
   font-weight: 200;
   color: rgb(153, 130, 93);
   margin-bottom: 2%;
-  padding-top: 22%;
+  padding-top: 25%;
   font-size: 6vw;
   text-align: center;
   letter-spacing: 1.7vw;
@@ -823,7 +829,7 @@ hr {
   font-family: 'Megrim';
   font-weight: 200;
   color: rgb(153, 130, 93);
-  padding-top: 22%;
+  padding-top: 25%;
   font-size: 6vw;
   text-align: center;
   letter-spacing: 1.7vw;
@@ -981,8 +987,8 @@ hr {
 .pics {
   width: 100%;
   margin-left: 9%;
-  padding-left: 3%;
-  padding-right: 2%;
+  padding-left: 2.1%;
+  padding-right: 0.2%;
 }
 .img {
   max-width: 100%;
@@ -995,11 +1001,11 @@ hr {
 }
 
 .wedding {
-  width: 96%;
+  width: 93%;
   height: auto;
-  margin-left: 1.8%;
+  margin-left: 3.5%;
   margin-bottom: 1%;
-  margin-top: 1%;
+  margin-top: 3%;
   position: relative;
 }
 .wedding:hover {
@@ -1027,10 +1033,11 @@ hr {
 
 .infoDiv {
   font-size: 1.6vw;
-  width: 95%;
+  width: 98%;
   height: auto;
-  margin-top: -3.3%;
-  margin-left: 1.8%;
+  margin-top: -37.3%;
+  padding-top: 33%;
+  margin-left: 0;
   padding-bottom: 0.1%;
   background-color: black;
   margin-bottom: 1%;
@@ -1038,55 +1045,60 @@ hr {
 
 .infoDiv1 {
   font-size: 1.6vw;
-  width: 95%;
+  width: 98%;
   height: auto;
-  margin-top: -3.2%;
-  margin-left: 1.8%;
-  padding-bottom: 0.7%;
+  margin-top: -37%;
+  padding-top: 32%;
+  margin-left: 0;
+  padding-bottom: 0.1%;
   background-color: black;
   margin-bottom: 1%;
 }
 
 .infoDiv2 {
   font-size: 1.6vw;
-  width: 95%;
+  width: 98%;
   height: auto;
-  margin-top: -3.2%;
-  margin-left: 1.8%;
-  padding-bottom: 0.7%;
+  margin-top: -37.3%;
+  padding-top: 33%;
+  margin-left: 0;
+  padding-bottom: 0.1%;
   background-color: black;
   margin-bottom: 1%;
 }
 
 .infoDiv3 {
   font-size: 1.6vw;
-  width: 95%;
+  width: 98%;
   height: auto;
-  margin-top: -4.4%;
-  margin-left: 1.8%;
-  padding-bottom: 0%;
+  margin-top: -37.3%;
+  padding-top: 33%;
+  margin-left: 0;
+  padding-bottom: 0.1%;
   background-color: black;
   margin-bottom: 1%;
 }
 
 .infoDiv4 {
   font-size: 1.6vw;
-  width: 95%;
+  width: 98%;
   height: auto;
-  margin-top: -3.3%;
-  margin-left: 1.8%;
-  padding-bottom: 0.8%;
+  margin-top: -37.3%;
+  padding-top: 33%;
+  margin-left: 0;
+  padding-bottom: 0.1%;
   background-color: black;
   margin-bottom: 1%;
 }
 
 .infoDiv5 {
   font-size: 1.6vw;
-  width: 95%;
+  width: 98%;
   height: auto;
-  margin-top: -3.2%;
-  margin-left: 1.8%;
-  padding-bottom: 2.6%;
+  margin-top: -37.3%;
+  padding-top: 33%;
+  margin-left: 0;
+  padding-bottom: 0.1%;
   background-color: black;
   margin-bottom: 1%;
 }
@@ -1096,7 +1108,8 @@ hr {
   font-weight: 200;
   color: rgb(153, 130, 93);
   margin-bottom: 2%;
-  padding-top: 22%;
+  margin-left: 4%;
+  padding-top: 25%;
   font-size: 6vw;
   text-align: center;
   letter-spacing: 1.7vw;
@@ -1108,14 +1121,14 @@ hr {
 }
 
 .profileInfo {
-  width: 90%;
+  width: 95%;
   height: auto;
   color: rgb(109, 85, 68);
   margin-top: 1.9%;
   margin-bottom: 10%;
   font-family: 'quicksand';
   font-size: 3.4vw;
-  margin-left: 5%;
+  margin-left: 4%;
 }
 
 .profileInfo2 {
@@ -1124,6 +1137,7 @@ hr {
   font-size: 3.8vw;
   margin-bottom: -2%;
   margin-top: 0%;
+  text-align: center;
 }
 
 #contact {
@@ -1131,7 +1145,7 @@ hr {
   font-weight: 200;
   color: rgb(153, 130, 93);
   margin-bottom: 2%;
-  padding-top: 22%;
+  padding-top: 25%;
   font-size: 6vw;
   text-align: center;
   letter-spacing: 1.7vw;
@@ -1186,9 +1200,10 @@ hr {
   font-weight: 300;
   font-size: 5.4vw;
   color: rgb(153, 130, 93);
-  margin-top: -56.8%;
+  margin-top: -57.1%;
   margin-left: 25.6%;
   letter-spacing: 1.3vw;
+  text-decoration: none;
 }
 
 .email {
@@ -1210,9 +1225,21 @@ hr {
 
 .load {
   width: 61.5%;
-  margin-top: 82.6%;
+  margin-top: 61.9%;
   margin-left: 17.4%;
   opacity: .6;
+  display: none;
+}
+.loadDiv {
+  width: 105%;
+  height: 150%;
+  color: #ECECEC;
+  background-color: white;
+  margin-top: -8%;
+  margin-left: -2%;
+  margin-bottom: -78%;
+  position: absolute;
+  z-index: 1000;
 }
 
 

@@ -93,9 +93,8 @@
     content: '→';
 }
 
-.slick-next
-{
-    right: -25px;
+.slick-next {
+    right: -20px;
 }
 [dir='rtl'] .slick-next
 {
