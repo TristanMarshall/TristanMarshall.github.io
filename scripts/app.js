@@ -5,8 +5,8 @@ $(document).ready(function(){
 ////////////////////////////////////////////////////////////////////////////////
 
   // $(window).load(function(){
-    $('.fixedName').fadeIn(3000);
-    $('.nav').fadeIn(3000);
+    $('.fixedName').delay(2000).fadeIn(3000);
+    $('.nav').delay(2000).fadeIn(3000);
     $('.fullStackTitle').fadeIn(3000);
     $('.contactInfo3').fadeIn(2000);
     $('.dev1').delay(2000).fadeIn(2000);
