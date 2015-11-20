@@ -159,6 +159,19 @@ hr {
   border: solid #78603B;
 }
 
+.free {
+    font-size: 1.6vw;
+    width: 34%;
+    height: auto;
+    margin-top: 2%;
+    float: left;
+    margin-left: 3%;
+    padding-bottom: 0;
+    background-color: black;
+    margin-bottom: 1%;
+    border: solid #78603B;
+}
+
 .infoDiv1 {
   font-size: 1.6vw;
   width: 59.5%;
